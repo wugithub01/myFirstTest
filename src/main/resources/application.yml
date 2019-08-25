@@ -1,0 +1,9 @@
+server:
+  servlet:
+    context-path: /Demo
+  port: 8080
+spring:
+  mvc:
+    view:
+      prefix: /pages/
+      suffix: .html
